@@ -33,14 +33,14 @@ For example, suppose that we want to find an optimized placement using the follo
 The java code for finding a placement using those options is:
 ```java
 IClopla clopla = new Clopla();
-    VmPlacementConfig vmPlacementConfig = new VmPlacementConfig.Builder(
-        Policy.CONSOLIDATION, // Scheduling policy
-        30, // Timeout
-        ConstructionHeuristic.FIRST_FIT_DECREASING, // Construction heuristic
-        new HillClimbing(), // Local Search heuristic
-        false) // Deploy VMs in specific hosts?
-        .build();
-    System.out.println(clopla.getBestSolution(hosts, vms, vmPlacementConfig)); // get placement and print it
+VmPlacementConfig vmPlacementConfig = new VmPlacementConfig.Builder(
+    Policy.CONSOLIDATION, // Scheduling policy
+    30, // Timeout
+    ConstructionHeuristic.FIRST_FIT_DECREASING, // Construction heuristic
+    new HillClimbing(), // Local Search heuristic
+    false) // Deploy VMs in specific hosts?
+    .build();
+System.out.println(clopla.getBestSolution(hosts, vms, vmPlacementConfig)); // get placement and print it
 ```
 The only thing missing from the example is knowing how to instantiate a list of VMs and a list of hosts:
  ```java
