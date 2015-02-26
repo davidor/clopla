@@ -6,7 +6,27 @@
     <packaging>jar</packaging>
     <version>1.0.0</version>
     <name>clopla</name>
-    <url>http://maven.apache.org</url>
+    <description>Virtual machine placement optimizer</description>
+    <url>https://github.com/davidor/clopla</url>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/davidor/clopla</url>
+    </scm>
+    
+    <developers>
+        <developer>
+            <name>David Ortiz</name>
+        </developer>
+    </developers>
+    
     <dependencies>
         <dependency>
             <groupId>org.optaplanner</groupId>
