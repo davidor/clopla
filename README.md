@@ -13,9 +13,14 @@ Clopla uses [OptaPlanner](http://www.optaplanner.org/).
 
 ## Installation
 
-Add this to your pom.xml:
-
-TODO
+Add this dependency to your pom.xml:
+```xml
+<dependency>
+   <groupId>es.bsc</groupId>
+   <artifactId>clopla</artifactId>
+   <version>1.0.0</version>
+</dependency>
+```xml
 
 ## Usage
 
