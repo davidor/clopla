@@ -20,7 +20,7 @@ Add this dependency to your pom.xml:
    <artifactId>clopla</artifactId>
    <version>1.0.0</version>
 </dependency>
-```xml
+```
 
 ## Usage
 
