@@ -70,3 +70,7 @@ You can find a complete usage example in the examples/ExampleClient.java class.
 ## License
 
 Code released under [the Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
+
+
+This work is supported by the European Union under FP7-SMARTCITIES-2013
+contract 608679 and FP7-ICT-2013-10 contract 610874.
